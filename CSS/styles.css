@@ -8,12 +8,16 @@ body {
   color: #2D373D;
 }
 
+h1, h3 {
+  font-family: 'Mr Bedfort', cursive;
+}
+
 .jumbotron h1 {
   font-size: 80px;
 }
 
-h1, h3 {
-  font-family: 'Mr Bedfort', cursive;
+h2, h5, h6 {
+  font-family: 'Abril Fatface', cursive;
 }
 
 h3 {
@@ -26,13 +30,11 @@ h6 {
   font-size: 1.5em;
 }
 
-h2, h5, h6 {
-  font-family: 'Abril Fatface', cursive;
-}
 
 img {
   width: 100%;
   margin: auto;
+  border-radius: 5%;
 }
 
 ul {
@@ -41,8 +43,17 @@ ul {
     list-style-position: inside;
 }
 
-.jumbotron, #projects, #about, #contact {
+#about img {
+  border-radius: 50%;
+  border: 4px grey dotted;
+}
+
+div#home.jumbotron, #projects, #about, #contact {
     background-color: rgba(242, 169, 159, 0.9);
+    /* border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%; */
+    border-top: 5px grey double;
+    border-radius: 8%;
 }
 
 #projects, #about, #contact {

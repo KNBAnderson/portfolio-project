@@ -4,6 +4,8 @@ body {
   background-attachment: fixed;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5em;
+  font-size: 1.5em;
+  color: #2D373D;
 }
 
 h1, h3 {
@@ -25,17 +27,18 @@ img {
   margin: auto;
 }
 
-
 ul {
     padding-inline-start: unset;
     list-style-type: circle;
     list-style-position: inside;
 }
 
-.col-md-3 {
-  border:5px yellow solid;
+.jumbotron, #projects, #about, #contact {
+    background-color: rgba(242, 169, 159, 0.9);
 }
 
 #projects, #about, #contact {
   padding: 15px;
+  margin: auto;
+  margin-bottom: 30px;
 }

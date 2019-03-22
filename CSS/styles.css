@@ -3,6 +3,7 @@ body {
   background-repeat: repeat;
   background-attachment: fixed;
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.5em;
 }
 
 h1 {
@@ -19,7 +20,13 @@ img {
   margin: auto;
 }
 
+
+ul {
+    padding-inline-start: unset;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
 .col-md-3 {
   border:5px yellow solid;
-  text-align: center;
 }

@@ -2,8 +2,18 @@ body {
   background-image: url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/seamless-watercolor-floral-pattern-katerina-kirilova.jpg');
   background-repeat: repeat;
   background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Mr Bedfort', cursive;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
 }
 
 img {
   max-width: 400px;
+  padding: 50px;
 }

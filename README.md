@@ -6,6 +6,7 @@
 
 ## Description
 
+https://knbanderson.github.io/portfolio-project/
 This is a practice portfolio I have created for the first Epicodus solo project.
 
 ## Getting Started

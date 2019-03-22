@@ -16,6 +16,11 @@ h1, h3 {
   font-size: 80px;
 }
 
+span {
+  text-decoration: line-through;
+  color: grey;
+}
+
 h2, h5, h6 {
   font-family: 'Abril Fatface', cursive;
 }
@@ -46,6 +51,14 @@ ul {
 #about img {
   border-radius: 50%;
   border: 4px grey dotted;
+}
+
+#contact p {
+  text-align: center;
+}
+
+.float p {
+  float: right;
 }
 
 div#home.jumbotron, #projects, #about, #contact {
